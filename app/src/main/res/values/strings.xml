@@ -1,4 +1,16 @@
 <resources>
-    <string name="app_name">MetaReel Dev Overlay</string>
-    <string name="accessibility_description">Tracks Instagram reel activity and scroll counts for development use.</string>
+    <string name="app_name">MetaReel</string>
+    <string name="accessibility_description">MetaReel monitors Instagram Reels to track user activity, extract reel information (username, likes, ads), and display real-time statistics via an overlay. This helps developers analyze Instagram\'s content delivery.</string>
+    <string name="grant_overlay_permission">Grant Overlay Permission</string>
+    <string name="open_accessibility_settings">Open Accessibility Settings</string>
+    <string name="start_overlay">Start Overlay Service</string>
+    <string name="stop_overlay">Stop Overlay Service</string>
+    <string name="reset_counters">Reset Counters</string>
+    <string name="overlay_permission_required">Overlay permission is required to display stats</string>
+    <string name="accessibility_required">Accessibility service must be enabled</string>
+    <string name="service_running">Service is running</string>
+    <string name="service_stopped">Service is stopped</string>
+    <string name="waiting_for_data">Waiting for Instagram data...</string>
 </resources>
+
+<!-- Made with Bob -->

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
-    android:accessibilityEventTypes="typeViewScrolled|typeWindowContentChanged|typeWindowStateChanged|typeViewFocused"
+    android:accessibilityEventTypes="typeViewScrolled|typeWindowContentChanged|typeWindowStateChanged|typeViewSelected|typeViewFocused"
     android:accessibilityFeedbackType="feedbackGeneric"
-    android:notificationTimeout="50"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews|flagRequestTouchExplorationMode"
     android:canRetrieveWindowContent="true"
     android:description="@string/accessibility_description"
-    android:settingsActivity="com.example.metareel.MainActivity"
+    android:notificationTimeout="100"
     android:packageNames="com.instagram.android"
-    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews" />
+    android:settingsActivity="com.example.metareel.MainActivity" />
+
+<!-- Made with Bob -->
