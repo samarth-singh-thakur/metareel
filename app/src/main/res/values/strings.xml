@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MetaReel Dev Overlay</string>
+    <string name="accessibility_description">Tracks Instagram reel activity and scroll counts for development use.</string>
+</resources>
